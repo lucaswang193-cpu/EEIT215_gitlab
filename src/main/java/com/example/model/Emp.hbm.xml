@@ -1,0 +1,7 @@
+<hibernate-mapping>
+	<class name="com.example.model.EmpBean" table="emp">
+		<id name="empno" column="empno"></id>
+		<property name="ename" column="ename"></property>
+		<property name="salary" column="salary"></property>
+	</class>
+</hibernate-mapping>
